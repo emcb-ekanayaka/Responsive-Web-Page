@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100&family=Roboto:wght@100;300&display=swap');
+.mask-group-6-container{
+    display: flex;
+    margin-right: 40px;
+}
+.sub-mask-group-6-container-1{
+    background-image: url("Assets/Mask Group 4.png");
+    width:100%;  
+    height: 533px;
+    background-size: cover;
+    flex: 60.33%;
+}
+.sub-mask-group-6-container-2{
+    background-image: url("Assets/Mask Group 5.png");
+    width:100%;  
+    height: 533px;
+    background-size: cover;
+    flex: 25.33%;
+}
+.sub-mask-group-6-container-3{
+    background-image: url("Assets/Mask Group 6.png");
+    width:100%;  
+    height: 533px;
+    background-size: cover;
+    flex: 15.33%;
+  
+}
+.mask-Group-5-img{
+    margin: 0;
+    padding: 0;
+}
+.mask-Group-6-img{
+    margin: 0;
+    padding: 0;
+}
+.group-16-play-icon{
+    margin: 0;
+    margin-top: 34%;
+    margin-left: 58%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+}
+
+@media(max-width: 1000px){
+    .mask-group-6-container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-right: 0px;
+    }
+
+    .sub-mask-group-6-container-2{
+        display: none;
+    }
+    .sub-mask-group-6-container-3{
+       display: none;
+    }
+
+    .group-16-play-icon{
+        margin: 0;
+        margin-top: 35%;
+        margin-left: 55%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 40px;
+        height: 40px;
+    }
+    
+
+}

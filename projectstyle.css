@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@100&family=Roboto:wght@100;300&display=swap');
+.project-container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.sub-project-container-1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.sub-project-container-2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.mobile-web-cloud{
+    background-image: url("Assets/Mask\ Group\ 2.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.recent-projects{
+    background-image: url("Assets/Mask\ Group\ 3.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.mobile-web-cloud-container{
+    padding: 140px 250px 100px 100px;
+    color: white;
+}
+.recent-projects-container{
+    padding: 140px 0px 100px 100px;
+    color: white;
+}
+.mobile-web-para{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-family: Playfair Display;
+
+}
+.recent-projects-para{
+    margin-top: 20px;
+    margin-bottom: 90px;
+    font-size: 60px;
+    font-family: Playfair Display;
+}
+small{
+    font-family: Muli;
+}
+.view-service{
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px 15px 25px; 
+    display: flex;
+}
+.arrow-icon{
+    margin: 0;
+    padding: 2px 0 0 15px;
+    width: 35px;
+}
+
+@media(max-width: 1000px){
+    .project-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-project-container-1, .sub-project-container-2{
+        text-align: center;
+        font-size: 24px;
+        padding: 0;
+    }
+    
+    .mobile-web-cloud-container, .recent-projects-container{
+        padding: 10px 10px 10px 10px;
+        color: white;
+    }
+
+}

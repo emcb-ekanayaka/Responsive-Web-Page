@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@100&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Roboto:wght@100;300&family=Space+Grotesk:wght@300&display=swap');
+
+.success-project-container{
+    display: flex;
+}
+.count-area{
+    display: flex;
+}
+.sub-success-project-container-1{
+    padding: 100px 25px 25px 100px;
+    width:100%;  
+    
+    flex: 15%;
+    background: rgb(255, 255, 255);
+}
+.sub-success-project-container-2{
+    width:100%;  
+    
+    flex: 15%;
+    background: rgb(255, 255, 255);
+}
+
+.sub-success-project-container-3{
+    width:100%;  
+    height: 400px;
+    flex: 20%;
+
+}
+
+.project-counts{
+    font-size: 54px;
+    font-weight: bold;
+    font-family: Muli;
+}
+
+.sub-count-area-1{
+    padding-top: 15px;
+}
+.succeeded-project{
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    
+}
+.succeeded-project-para{
+    font-size: 18px;
+}
+
+
+@media(max-width: 1000px){
+    .success-project-container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-right: 0px;
+        padding: 0 0 0 0;
+    
+    }
+    .project-counts{
+        font-size: 48px;
+        padding-left: 10px;
+    }
+
+    .sub-success-project-container-1{
+        padding: 50px 25px 25px 20px;
+        width:100%;  
+    }
+    .sub-success-project-container-2{
+        width:100%;  
+    }
+
+    .sub-mask-group-6-container-2{
+
+        display: none;
+    }
+    .sub-mask-group-6-container-3{
+       display: none;
+    }
+    .succeeded-project-para{
+        font-family: Muli;
+    }
+
+    .group-16-play-icon{
+        margin: 0;
+        margin-top: 35%;
+        margin-left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 40px;
+        height: 40px;
+    }
+    
+
+}

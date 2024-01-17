@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@100&family=Roboto:wght@100;300&display=swap');
+.capabilities-container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.sub-capabilities-container-1{
+    background: rgb(255, 255, 255);
+    height: 400px;
+    width: 100%;
+}
+.sub-capabilities-container-2{
+    background: rgb(255, 255, 255);
+    height: 400px;
+    width: 100%;
+}
+
+.digital-strategies-content{
+    padding: 80px 10px 40px 100px;
+}
+
+.we-help-to-create{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+}
+
+.small-development{
+    font-weight: 800;
+}
+
+/* Collasps */
+
+#container {
+    padding: 15px;
+    cursor: pointer;
+}
+ 
+#top-section {
+   border-bottom: 1px solid rgb(255, 255, 255);
+}
+ 
+#expand-container {
+    margin: 20px 0 20px 0;
+   overflow: hidden;
+}
+ 
+#expand-contract {
+   margin-top: -100%;
+   transition: all 1s;
+}
+ 
+#expand-contract.expanded {
+    margin-top: 0;
+}
+.motion-graphics{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.collaps-content{
+    padding: 80px 40px 80px 100px;
+}
+
+@media(max-width: 1000px){
+.capabilities-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.sub-capabilities-container-1{
+    font-size: 24px;
+    padding-top: 80px;
+    padding-bottom: 0;
+}
+.sub-capabilities-container-2{
+    padding-bottom: 0;
+    height: 260px;
+}
+.digital-strategies-content{
+    padding: 0;
+}
+.collaps-content{
+    padding: 0;
+}
+
+}
+
+progress[value] {
+    --color: rgb(153, 0, 0);
+    --background: rgb(231, 231, 231); 
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    width: 90%;
+    border-radius: 20px;
+    height: 8px;
+    
+}
+progress[value]::-webkit-progress-bar {
+    border-radius: 10em;
+    background: var(--background);
+}
+progress[value]::-webkit-progress-value {
+    border-radius: 10em;
+    background: var(--color);
+}
+progress[value]::-moz-progress-bar {
+    border-radius: 10em;
+    background: var(--color);
+}
+
+.progress-bar{
+    display: block;
+    margin-top: -10px;
+}
